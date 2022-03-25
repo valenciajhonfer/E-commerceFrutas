@@ -174,7 +174,7 @@
             //console.log('El carrito está vacío, agrega algún producto');
              Swal.fire({
                 icon: 'error',
-                title: 'El carrito está vacío, agrega una mascota',
+                title: 'El carrito está vacío',
                 timer: 2500,
                 showConfirmButton: false
             })
