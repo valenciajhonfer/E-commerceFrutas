@@ -188,7 +188,7 @@ main{
 .slider ul{
     display:flex;
     padding: 10px;
-    width: 100%;
+    /* width: 100%; */
     animation: cambio 20s infinite;
     animation-direction: alternate;
     animation-timing-function:linear;
@@ -200,9 +200,7 @@ main{
 .slider img{
     width: 100%;
 }
-.imh{
-    width: 100%;
-}
+
 @keyframes cambio{
     0%{margin-left: 0;}
     30%{margin-left:0;}
@@ -403,8 +401,9 @@ main{
     text-align: center;
 }
 .columna2{
-    /* width: 40%;
-    float: right; */
+    width: 40%;
+    margin-top: auto;
+    /* float: right; */
 }
 .columna2 img{
     width: 450px;
